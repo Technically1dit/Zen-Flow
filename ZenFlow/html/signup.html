@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="aos.css" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="style1.css" />
+<link rel="icon" href="images/zen2.png" type="image/x-icon">
+</head>
+<body class="bdy">
+    <div class="container">
+        <form class="form" name="formfill" onsubmit="return validation()">
+            <h2>Sign Up for Zen Flow Yoga</h2>
+            <p id="result">head</p>
+            <input type="text" placeholder="Full Name" name="Username">
+            <input type="email" placeholder="Email" name="Email" id="email">
+            <input type="password" id="password" placeholder="Password" name="Password">
+            <input type="password" id="Cpassword" placeholder="Confirm Password" name="cPassword">
+            <button type="submit" class="btn">Sign Up</button>
+            <p>Already have an account? <a href="login.html">Login</a></p>
+        </form>
+    
+        <div class="popup" id="popup">
+            <i class="fa-solid fa-circle-check"></i>
+            <h2>Thank You</h2>
+            <p>Your Account has been created successfully.</p>
+            <a href="index.html"><button>OK</button></a>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
